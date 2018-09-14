@@ -1,0 +1,69 @@
+body{
+    width: 67vw;
+    margin: 0 auto;
+    background-color: #e5e6e8;
+    font-family: 'Noto Sans KR';
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+    width: 100%;
+    
+}
+nav>a{
+font-size: 13pt;
+margin: 10px;
+text-decoration:none;
+font-family: 'Noto Sans KR';
+color: white;
+
+
+
+} 
+
+.imagem-fundo{
+    height: 92vh;
+    background: linear-gradient(to bottom, rgba(211, 190, 145, 0.5), rgba(255, 255, 255, 0.50)), url("img/fundo.jpg");
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+
+    
+}
+
+.pesquisa>div:first-child{
+    width:80%;
+}
+.pesquisa>div:last-child{
+    width: auto;
+}
+.pesquisa>div:first-child>input{
+    width: 90%;
+    height: 40px;
+
+}
+.pesquisa>div:last-child button{
+background-color: #48c6f3;
+font-family: 'Noto Sans KR';
+width: 115px;
+height: 46px;
+margin-top: 40px;
+
+}
+
+
